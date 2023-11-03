@@ -1,5 +1,5 @@
 
-const link = "httpS://passwordarris.somee.com/api/fecha/2024-01-01T00:00:00";
+const link = "https://passwordarris.somee.com/api/fecha/2024-01-01T00:00:00";
 
 var result = fetch (link).then(Response=> Response.text()).then(data=>console.log(data))
 //
